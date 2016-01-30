@@ -1,0 +1,289 @@
+/* WEB FONT */
+.puncuation { letter-spacing: -0.3em; }
+
+.page-overview .section-hero h1 span { display: inline-block; }
+
+.localnav-link, .button-buynow, .button-compact{font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+
+html[lang=zh-CN] body{font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+html[lang=zh-CN] h1, html[lang=zh-CN] h2, html[lang=zh-CN] h3, html[lang=zh-CN] h4 {font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+html[lang=zh-CN] .subsection-subheadline,
+html[lang=zh-CN] .hero-headline{ font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+html[lang=zh-CN] body .myriad{ font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+
+.badge-small{font-size: 15px;}
+@media only screen and (max-width: 735px) {.badge-small{font-size: 12px;}}
+
+html[lang=zh-CN] span.badge-small.myriad{font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+html[lang=zh-CN] span.badge-half{ font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 0.3em;}
+html[lang=zh-CN] span.badge-half.myriad{ font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 0.3em;}
+html[lang=zh-CN] span.badge-half.badge-half-top {font-size: 0.5em;}
+
+html[lang=zh-CN] .graph-large .pingHei, html[lang=zh-CN] .badge-content .pinghei, html[lang=zh-CN] .badge .badge-large .badge-half .pinghei {
+	font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+/* localnav */
+html[lang=zh-CN] #ac-localnav, html[lang=zh-CN] #ac-localnav select, html[lang=zh-CN] #ac-localnav button {font-family: 'PingHei', 'PingFang SC','Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.localnav-expandable .disclosure-text{ font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 14px;line-height: 37px;}
+html[lang=zh-CN] #ac-localnav, html[lang=zh-CN] #ac-localnav select, html[lang=zh-CN] #ac-localnav but{font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+/* footer */
+html[lang=zh-CN] .ac-ln-menu a { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-caption,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-copy,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-info-title,
+html[lang=zh-CN] #ac-globalfooter a.ac-gf-block .ac-gf-block-link,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-sosumi p,
+html[lang=zh-CN] #ac-globalfooter .ac-gf-sosumi li,
+#ac-globalfooter[lang=zh-CN], 
+#ac-globalfooter[lang=zh-CN] select, 
+#ac-globalfooter[lang=zh-CN] button {font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+html[lang=zh-CN] #ac-globalfooter .ac-gf-buystrip-hero-title{font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+#ac-globalfooter .ac-gf-more::after, #ac-globalfooter .ac-gf-more .icon-htc{top:-1px;}
+
+html[lang=zh-CN] .page-accessories h3.colorselector-title.myriad,
+html[lang=zh-CN] .badge .badge-large .badge-half.myriad{font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+
+#ac-localnav * {font-size: 1.01em;}
+#ac-localnav .ac-ln-button {font-size: 1.01em;}
+html[lang=zh-CN] h4 {
+    font-size: 30px;
+    line-height: 1.16667;
+    font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+
+@media only screen and (max-width: 1068px) {
+    html[lang=zh-CN] h4 {
+        font-size: 26px;
+        line-height: 1.19231;
+        font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    html[lang=zh-CN] h4 {
+        font-size: 22px;
+        line-height: 1.18182;
+        font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    }
+}
+
+.more { font-size: 16px; }
+
+.more::after, .more .icon-htc { top: -1.5px; }
+
+.more.myriad::after, .more.myriad .icon-htc { top: 0px; }
+
+.centeralign { padding-left: 0.7em; }
+@media only screen and (max-width: 735px) { .centeralign { padding-left: 0; } }
+@media only screen and (max-width: 735px) and (max-device-width: 768px) { .centeralign { padding-left: 0; } }
+
+sup.star{ font-size: 15px !important; bottom:0em !important; }
+
+.centeralignshow { padding-left: 0.7em; }
+
+html[lang=zh-CN] h2.localnav-title { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 32px; font-style: normal; font-weight: 200; letter-spacing: -0.4480000138282776px; }
+@media only screen and (max-width: 767px) {
+	html[lang=zh-CN] h2.localnav-title { font-size: 20px; }
+}
+
+
+.localnav-head-disclosure { padding-right: 14px; top: 12px; }
+
+.disclosure-text { font-size: 16px; line-height: 34px; }
+
+.localnav-expandable .button-compact { float: right; margin-top: 3px; margin-left: 30px; }
+
+@media only screen and (max-width: 767px) { .localnav-expandable .button-compact { margin-top: 13px; margin-right: 16px; } }
+/* page-overview */
+html[lang=zh-CN] h1.intro-heading { line-height: 30px; }
+
+html[lang=zh-CN] .page-overview .section-hero h1 span.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 72px; }
+
+@media only screen and (max-width: 1068px) { html[lang=zh-CN] .page-overview .section-hero h1 span.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 64px; } }
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .page-overview .section-hero h1 span.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 42px;  } }
+
+.page-overview p.intro { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+span.badge-half.size { font-size: 0.5em; }
+
+html[lang=zh-CN] .page-ios9 .intro {
+    font-size: 22px;
+    line-height: 1.54545;
+    font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+
+@media only screen and (max-width: 1068px) {
+    html[lang=zh-CN] .page-ios9 .intro {
+        font-size: 22px;
+        line-height: 1.54545;
+        font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    html[lang=zh-CN] .page-ios9 .intro {
+        font-size: 18px;
+        font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+    }
+}
+
+html[lang=zh-CN] .page-ios9 .text-air {
+    font-size: 14px;
+    line-height: 1.71429
+}
+
+@media only screen and (max-width: 1068px) {
+    html[lang=zh-CN] .page-ios9 .text-air {
+        font-size: 14px;
+        line-height: 1.71429
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    html[lang=zh-CN] .page-ios9 .text-air {
+        font-size: 14px;
+        line-height: 1.71429
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .page-ios9 .text-air {
+        margin-left: 95px;
+        margin-bottom: 60px
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .page-ios9 .text-air {
+        margin-right: 0;
+        margin-bottom: 50px;
+        margin-left: 0
+    }
+}
+
+
+/* page-design */
+html[lang=zh-CN] .page-performance .section-hero .intro, .page-design .section-hero p { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.page-design span.badge-half.badge-half-top { font-size: 42px; line-height: 0.80952; font-weight: 200; letter-spacing: -0.025em; text-transform: none; }
+
+@media only screen and (max-width: 1068px) { .page-design span.badge-half.badge-half-top { font-size: 32px; line-height: 0.8125; font-weight: 200; letter-spacing: -0.025em; } }
+@media only screen and (max-width: 735px) { .page-design span.badge-half.badge-half-top { font-size: 24px; line-height: 0.79167; font-weight: 200; letter-spacing: -0.025em; } }
+.page-design .badge-small { font-size: 14px; }
+
+.page-design span.badge-half.X { font-size: 0.5em; }
+
+/* page-performance */
+html[lang=zh-CN] .page-performance div.row.charts li { font-family: 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 14px; }
+
+/* page-cameras */
+html[lang=zh-CN] .page-cameras .section-hero p { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+html[lang=zh-CN] .page-cameras span.badge-half.X { font-size: 0.5em; }
+
+.page-cameras h4 { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.page-cameras span.badge-half.P { font-size: 0.5em; }
+
+/* page-touchid */
+html[lang=zh-CN] .page-touchid .section-hero .intro { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+div.badge-small { font-size: 16px; }
+
+html[lang=zh-CN] .page-touchid .eyebrow.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 32px; line-height: 1.125; font-weight: 200; letter-spacing: 0em; }
+@media only screen and (max-width: 1068px) {
+    html[lang=zh-CN] .page-touchid .eyebrow.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 24px; line-height: 1.16667; font-weight: 200; letter-spacing: 0em } }
+@media only screen and (max-width: 735px) {
+    html[lang=zh-CN] .page-touchid .eyebrow.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 20px; line-height: 1.2; font-weight: 200; letter-spacing: 0em } }
+
+/* page-wireless */
+.page-wireless p.intro { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.page-wireless h3.icon-text.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 42px; line-height: 1.14286; font-weight: 200; letter-spacing: -0.01em; }
+
+@media only screen and (max-width: 1068px) { .page-wireless h3.icon-text.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 32px; line-height: 1.125; font-weight: 200; letter-spacing: 0em; } }
+@media only screen and (max-width: 735px) { .page-wireless h3.icon-text.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 28px; line-height: 1.14286; font-weight: 200; letter-spacing: 0em; } }
+/* page-ios */
+h4.headline-air, p.intro.large-margin-8.medium-margin-6.small-margin-0 { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.page-ios9 .text-multitask-item { font-size: 16px;  line-height: 1.8; }
+
+div.gallery-text p { font-size: 14px; line-height: 1.8; }
+
+/* page-apps */
+html[lang=zh-CN] .page-apps .section-hero .intro { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.page-apps h4 { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+html[lang=zh-CN] .page-apps h4.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 32px; line-height: 1.125; font-weight: 200; letter-spacing: normal }
+@media only screen and (max-width: 1068px) {
+    html[lang=zh-CN] .page-apps h4.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 28px; line-height: 1.14286; font-weight: 200; letter-spacing: normal } }
+@media only screen and (max-width: 735px) {
+    html[lang=zh-CN] .page-apps h4.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 24px; line-height: 1.16667; font-weight: 200; letter-spacing: normal } }
+
+/* page-accessories */
+.page-accessories p {font-size: 16px;}
+.page-accessories p.intro { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+.page-accessories p.intro {font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+.page-accessories h3.colorselector-title{font-size: 16px; font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+.page-accessories h3.colorselector-title.myriad{font-size: 18px; font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;}
+.page-accessories .section-routing .section-content .next{ font-size: 16px;}
+
+html[lang=zh-CN] .page-accessories h2.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 52px; line-height: 1.08654; font-weight: 200; letter-spacing: -0.014em }
+@media only screen and (max-width: 1068px) {
+    html[lang=zh-CN] .page-accessories h2.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 42px; line-height: 1.14286; font-weight: 200; letter-spacing: -0.01em } }
+@media only screen and (max-width: 735px) {
+    html[lang=zh-CN] .page-accessories h2.myriad { font-family: "Myriad Set Pro", 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;font-size: 32px; line-height: 1.125; font-weight: 200; letter-spacing: 0em } }
+
+
+/* page-specs */
+.specs-table th { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+.specs-table .subhead { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; }
+
+html[lang=zh-CN] .page-specs h4 { font-size: 16px; }
+
+html[lang=zh-CN] .page-specs div.section-family h4 { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 30px; line-height: 1.16667; }
+
+@media only screen and (max-width: 1068px) { html[lang=zh-CN] .page-specs div.section-family h4 { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 26px; line-height: 1.19231; } }
+@media only screen and (max-width: 735px) { html[lang=zh-CN] .page-specs div.section-family h4 { font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif; font-size: 22px; line-height: 1.18182; } }
+
+
+p.weight-wf, p.weight-wfc { font-size: 14px; }
+
+span.badge-small { font-size: 14px; }
+
+span.badge-half.badge-half-top { font-size: 0.5em; }
+
+span.size { font-size: 0.3em; }
+
+html[lang=zh-CN] .page-specs .badge-small { left: -40px; }
+
+.specs-table strong { font-size: 16px; line-height: 1.44444; font-weight: 600; letter-spacing: normal; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
