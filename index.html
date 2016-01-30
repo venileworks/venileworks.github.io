@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+  <script type="text/javascript" src="smoothscroll.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="font.css">
   <link rel="stylesheet" href="style.css">
@@ -10,9 +12,9 @@
   <meta name="viewport" content="width=device-width">
   <title>VenileWork</title>
 </head>
-<body>
+<body id="home">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div  class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -24,16 +26,84 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active words"><a href="#">主页</a></li>
-            <li><a href="#about" class="words">关于Venile</a></li>
-            <li><a href="#contact" class="words">联系方式</a></li>
+            <li><a href="#home" class="active words smoothScroll">主页</a></li>
+            <li><a href="#about" class="words smoothScroll">关于Venile</a></li>
+            <li><a href="#contact" class="words smoothScroll">联系方式</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+   <div class="row">
+     <div class="col-md-12 center-block">
+   <div id="carousel-example-generic" class="col-md-12 carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="img center-block" src="pic1.jpg" >
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    <div class="item">
+      <img class="img center-block" src="pic1.jpg" >
+      <div class="carousel-caption">
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </div></div>
     <div class="row">
-  <div class="col-md-12 black"><img class="mainlogo img-rounded center-block" src="logo.jpg"></div>
+  <div class="col-md-12 black"><iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/QbtPhs35XgA" frameborder="0" allowfullscreen></iframe>
+   <div class="col-md-12 ">
+      <h1 class="heading" href="about">关于我们</h1>
+      <div id="about" class="col-md-offset-2 col-md-8 about">
+人之初，性本善。性相近，习相远。
+苟不教，性乃迁。教之道，贵以专。
+昔孟母，择邻处。子不学，断机杼。
+窦燕山，有义方。教五子，名俱扬。
+养不教，父之过。教不严，师之惰。
+子不学，非所宜。幼不学，老何为。
+玉不琢，不成器。人不学，不知义。
+为人子，方少时。亲师友，习礼仪。
+香九龄，能温席。孝于亲，所当执。
+融四岁，能让梨。弟于长，宜先知。
+首孝悌，次见闻。知某数，识某文。
+一而十，十而百。百而千，千而万。
+三才者，天地人。三光者，日月星。
+三纲者，君臣义。父子亲，夫妇顺。
+曰春夏，曰秋冬。此四时，运不穷。
+曰南北，曰西东。此四方，应乎中。
+曰水火，木金土。此五行，本乎数。
+十干者，甲至癸。十二支，子至亥。
+曰黄道，日所躔。曰赤道，      </div>
+      </div>
   </div> 
+  </div>
+  
+  
+    
+
+
+
     
 </body>
 </html>
